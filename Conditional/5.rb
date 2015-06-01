@@ -6,5 +6,5 @@ if real_egoing == input
 elsif real_k8805 == input
   puts("Hello!, k8805")
 else
-  puts("Who are you")
+  puts("Who are you?")
 end

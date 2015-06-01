@@ -7,6 +7,6 @@ else
   if real_k8805 == input
     puts("Hello!, k8805")
   else
-    puts("Who are you")
+    puts("Who are you?")
   end
 end

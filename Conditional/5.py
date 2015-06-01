@@ -6,4 +6,4 @@ if real_egoing == input:
 elif real_k8805 == input:
   print("Hello!, k8805")
 else:
-  print("Who are you")
+  print("Who are you?")
