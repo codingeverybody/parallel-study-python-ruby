@@ -1,7 +1,7 @@
 al = ['A', 'B', 'C', 'D']
-puts(al.length)
+puts(al.length) # 4
 al.push('E')
-print(al)
+print(al) # ["A", "B", "C", "D", "E"]
 al.delete_at(0)
 print("\n")
-print(al)
+print(al) # ["B", "C", "D", "E"]
