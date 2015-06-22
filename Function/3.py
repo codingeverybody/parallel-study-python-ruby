@@ -1,3 +1,3 @@
 def a(num):
     return 'a'*num
-print(a(2))
+print(a(3))

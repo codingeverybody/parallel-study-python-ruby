@@ -1,4 +1,4 @@
-zputs("아이디를 입력해주세요")
+puts("아이디를 입력해주세요")
 input_id = gets.chomp()
 
 def login(_id)
