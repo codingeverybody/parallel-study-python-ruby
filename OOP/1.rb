@@ -1,10 +1,11 @@
-require 'date'
-egoing_birth = DateTime.new(2000,1,1)
-k8805_birth = DateTime.new(2001,2,1)
-puts(egoing_birth.month()) #1
-puts(egoing_birth.wday()) #6
-puts(egoing_birth.iso8601()) #2000-01-01T00:00:00+00:00
-
-puts(k8805_birth.month()) #2
-puts(k8805_birth.wday()) #4
-puts(k8805_birth.iso8601()) #2001-02-01T00:00:00+00:00
+name1 = String.new('egoing')
+name2 = String.new('k8805')
+puts(name1.reverse())
+puts(name2.reverse())
+puts(name1.upcase())
+puts(name1.size())
+names = Array.new()
+names.push('egoing')
+names.push('k8805')
+puts(names)
+puts(names.join(','))
