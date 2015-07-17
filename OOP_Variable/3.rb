@@ -11,10 +11,19 @@ class Cal
   def subtract()
     return @v1-@v2
   end
+  def setV1(v)
+    if v.is_a?(Integer)
+      @v1 = v
+    end
+  end
+  def getV1()
+    return @v1
+  end
 end
 c1 = Cal.new(10,10)
-p c1.v1
-p c1.v2
+p c1.add()
+p c1.subtract()
+c1.setV1('one')
 c1.v1 = 20
-p c1.v1
-c1.v2 = 30
+p c1.add()
+c1.getV1()

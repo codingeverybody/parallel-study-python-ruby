@@ -17,7 +17,6 @@ c1 = Cal(10,10)
 print(c1.add())
 print(c1.subtract())
 c1.setV1('one')
-c1.v1 = 'one'
 c1.v2 = 30
 print(c1.add())
 print(c1.subtract())
