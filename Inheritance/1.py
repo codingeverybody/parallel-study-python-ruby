@@ -13,5 +13,5 @@ class Class2(object):
     def method1(self): return 'm1'
     def method2(self): return 'm2'
 c2 = Class2()
-print(c2.method1())
-print(c2.method2())
+print(c2, c2.method1())
+print(c2, c2.method2())
