@@ -1,9 +1,3 @@
-names = ['egoing', 'k8805', 'leezche']
-puts 'each'
-names.each() { |item|
-  puts item
-}
-puts 'for'
-for item in names
-  puts item
-end
+5.times() {|i| puts i}
+2.times() {puts '2times'}
+3.upto(5) {|item| puts item}
